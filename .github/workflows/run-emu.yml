@@ -1,3 +1,9 @@
+name: "Run Instrumentation Tests on Android Emulator"
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+
 jobs:
   test:
     runs-on: macos-latest
